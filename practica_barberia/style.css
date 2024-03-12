@@ -1,3 +1,16 @@
+/*Tener orden de etiquetas igual al html*/
+/*
+background es el fondo de la etiqueta de letra
+en este caso lo hace a todo el body, no a una etiqueta sola de letra
+*/
+body{
+    background: #cccccc;
+}
 p{
     text-align: center;
+}
+
+/*Especifica que tipo de strong quiero que cambia en este caso em strong*/
+em strong{
+    color: red;
 }
