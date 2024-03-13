@@ -6,6 +6,11 @@ en este caso lo hace a todo el body, no a una etiqueta sola de letra
 body{
     background: #cccccc;
 }
+/*ancho*/
+#banner{
+    width: 100%;
+}
+
 /*Text aling= significa alinear el texto*/
 h1{
     text-align: center;
