@@ -6,6 +6,10 @@ en este caso lo hace a todo el body, no a una etiqueta sola de letra
 body{
     background: #cccccc;
 }
+/*Text aling= significa alinear el texto*/
+h1{
+    text-align: center;
+}
 p{
     text-align: center;
 }
@@ -13,4 +17,10 @@ p{
 /*Especifica que tipo de strong quiero que cambia en este caso em strong*/
 em strong{
     color: red;
+}
+/*El font size viene por defecto en 16. El tamaño de las letras
+para poner estilos a etiquetas especificas debemos ponerle id en html y llamarla con #
+*/
+#mision{
+    font-size:20px;;
 }
