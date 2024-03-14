@@ -4,8 +4,13 @@ background es el fondo de la etiqueta de letra
 en este caso lo hace a todo el body, no a una etiqueta sola de letra
 */
 body{
+    /*background: #cccccc;      Si quiero a todo el body es asi,     */
+}
+/*Si lo quiero separado por secciones div es así*/
+.principal{
     background: #cccccc;
 }
+
 /*ancho*/
 #banner{
     width: 100%;
@@ -28,4 +33,14 @@ para poner estilos a etiquetas especificas debemos ponerle id en html y llamarla
 */
 #mision{
     font-size:20px;;
+}
+.diferenciales{
+    background: #ffffff;
+}
+h2{
+    text-align: center;
+}
+
+.items{
+    font-style: italic;
 }
