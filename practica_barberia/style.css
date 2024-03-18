@@ -3,12 +3,15 @@
 background es el fondo de la etiqueta de letra
 en este caso lo hace a todo el body, no a una etiqueta sola de letra
 */
+/*
 body{
-    /*background: #cccccc;      Si quiero a todo el body es asi,     */
-}
+    background: #cccccc;      Si quiero a todo el body es asi,     
+}*/
 /*Si lo quiero separado por secciones div es así*/
+/*padding es el espacio interno de un div, el cuadrado*/
 .principal{
     background: #cccccc;
+    padding: 20px;
 }
 
 /*ancho*/
@@ -36,6 +39,7 @@ para poner estilos a etiquetas especificas debemos ponerle id en html y llamarla
 }
 .diferenciales{
     background: #ffffff;
+    padding: 30px;
 }
 h2{
     text-align: center;
@@ -44,6 +48,18 @@ h2{
 .items{
     font-style: italic;
 }
-#diferenciales{
-    width: 100%;
+/*Inline block significa que puede ocupar un área
+ específica en la página  en este caso en la linea de bloque de ul y puede contener 
+ otros elementos dentro de él.*/
+ /*Vertical-aling posiciona el estilo de lo que queremos en disintas
+ posiciones
+ */
+ ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-right: 15%;
+ }
+.imgDiferenciales{
+    width: 50%;
 }
