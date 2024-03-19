@@ -18,9 +18,18 @@ body{
 #banner{
     width: 100%;
 }
-
-/*Text aling= significa alinear el texto*/
-h1{
+.titulo-principal{
+    padding-left: 30px;
+}
+/*Text aling= significa alinear el texto.
+Hacer esto es una mala practica, ya si tenemos
+definido los h2 y otro h3 que hace lo mismo o con misma caracteristica
+necesita una class, para no repetir codigo*/
+/*h2{
+    text-align: center;
+}*/
+/*Asi se llama una Class*/
+.titulo-centralizado{
     text-align: center;
 }
 p{
@@ -40,9 +49,6 @@ para poner estilos a etiquetas especificas debemos ponerle id en html y llamarla
 .diferenciales{
     background: #ffffff;
     padding: 30px;
-}
-h2{
-    text-align: center;
 }
 
 .items{
